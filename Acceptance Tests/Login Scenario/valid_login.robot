@@ -8,8 +8,8 @@ Resource          resource.robot
 *** Test Cases ***
 Valid Login
     Open Browser To Login Page
-    Input Username    mngr66174
-    Input Password    vutAhud
+    Input Username		mngr66174
+    Input Password		vutAhud
     Submit Credentials
     Welcome Page Should Be Open
     [Teardown]    Close Browser

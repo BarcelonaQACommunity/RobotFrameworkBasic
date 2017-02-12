@@ -44,3 +44,23 @@ Submit Credentials
 Welcome Page Should Be Open
     Location Should Be    ${WELCOME URL}
     Title Should Be    Guru99 Bank Home Page
+
+Selects Section
+    [Arguments]     ${section}
+    Click Link      ${section}
+
+Go to FC
+    Open Browser    https://www.forocoches.com/foro/misc.php?do=page&template=ident    ${BROWSER}
+    Maximize Browser Window
+    Set Selenium Speed    ${DELAY}
+
+Enters Username
+    [Arguments]    ${username}
+    Input Text    name=vb_login_username    ${username}
+
+Enters Password
+    [Arguments]    ${password}
+    Input Text    name=vb_login_password    ${password}
+
+Click Acceder
+    Click Button    xpath=/html/body/div[4]/div/div/table[1]/tbody/tr/td[2]/form/table/tbody/tr[2]/td[3]/input
