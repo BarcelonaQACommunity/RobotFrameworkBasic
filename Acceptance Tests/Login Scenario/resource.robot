@@ -7,7 +7,7 @@ Documentation     A resource file with reusable keywords and variables.
 Library           Selenium2Library
 
 *** Variables ***
-${SERVER}         demo.guru99.com/V4/index.php
+${SERVER}         demo.guru99.com/V4
 ${BROWSER}        Chrome
 ${DELAY}          0
 ${VALID USER}     mngr66174
