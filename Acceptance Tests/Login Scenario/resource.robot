@@ -33,7 +33,7 @@ Go To Login Page
 Input Username
     [Arguments]    ${username}
     Input Text    name=uid    ${username}
-
+    
 Input Password
     [Arguments]    ${password}
     Input Text    name=password    ${password}
@@ -43,4 +43,4 @@ Submit Credentials
 
 Welcome Page Should Be Open
     Location Should Be    ${WELCOME URL}
-    Title Should Be    Guru99 Bank Home Page
+    Title Should Be    Guru99 Bank Manager HomePage
