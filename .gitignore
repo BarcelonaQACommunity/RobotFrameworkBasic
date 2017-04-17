@@ -68,3 +68,6 @@ target/
 *.p
 *.pkl
 *.png
+
+#chrome driver
+!/1st_Session/chromedriver.exe
