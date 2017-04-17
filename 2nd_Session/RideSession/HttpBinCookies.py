@@ -20,4 +20,4 @@ class HttpBinCookies (object):
 if __name__ == "__main__":
 	a = HttpBinCookies()
 	a.Set_Cookies_Defined()
-	print a.Get_Cookies(417)
+	print a.Get_Cookies()
