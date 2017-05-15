@@ -72,3 +72,4 @@ target/
 #chrome driver
 /1st_Session/chromedriver.exe
 !*chromedriver.exe
+!*geckodriver.exe
