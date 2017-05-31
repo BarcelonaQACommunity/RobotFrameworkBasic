@@ -18,7 +18,6 @@ ${DELAY}          0.0 seconds    # 0.5 seconds
 Starts Browser
     ${chrome_option}=    SET CHROME OPTION
     Create Webdriver    Chrome    chrome_options=${chrome_option}
-    Comment    Selenium2Library.Open Browser    ${SERVER}    ${BROWSER}
     Maximize Browser Window
     Selenium2Library.Set Selenium Speed    ${DELAY}
 
