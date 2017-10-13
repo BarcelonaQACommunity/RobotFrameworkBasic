@@ -25,8 +25,7 @@ Example2
     Create Session    httpbin    http://httpbin.org
     ${resp}=    Get Request    httpbin    /ip
     ${resp_json}=    Set Variable    ${resp.json()}
-    Should Be Equal    ${resp_json["origin" ]}    80.32.125.143
-    Comment    Validate ${resp_json["origin" ]} IP
+    Validate ${resp_json["origin" ]} IP
 
 Exercise2
     [Documentation]    We want to set a custom cookies and validate in the server we do it correctly.Cookies:
